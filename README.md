@@ -1,2 +1,16 @@
 # TypeScript-Intro
-Demo .ts files
+Cheatsheet of TypeScript types and features
+
+## Installation
+`npm install -g typescript`
+
+## Set up
+`tsc --init`
+
+I like to uncomment the "outDir" option and point it to a dist folder.
+
+## Compile watch
+`tsc -w`
+
+## Contribution
+This cheatsheet is not complete. I encourage you to participate and create pull requests.
