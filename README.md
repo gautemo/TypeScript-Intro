@@ -13,7 +13,7 @@ I like to uncomment the "outDir" option and point it to a dist folder.
 `tsc -w`
 
 ## TypeScript files
-See TypeScript files in the src folder
+See TypeScript files in the [src](https://github.com/gautemo/TypeScript-Intro/tree/master/src) folder
 
 ## Contribution
 This cheatsheet is not complete. I encourage you to participate and create pull requests.
