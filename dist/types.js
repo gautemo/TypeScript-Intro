@@ -24,3 +24,6 @@ const neverMethod = () => {
     console.log('never reached');
 };
 const obj = { attr1: true, attr2: false };
+//combining types
+let both = 5;
+both = 'changed';

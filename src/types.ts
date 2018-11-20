@@ -27,3 +27,7 @@ const neverMethod = (): never => {
 }
 
 const obj: object = {attr1: true, attr2: false};
+
+//combining types
+let both: string|number = 5;
+both = 'changed';
