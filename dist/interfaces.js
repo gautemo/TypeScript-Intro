@@ -4,7 +4,6 @@ const doSomething = (opt) => {
 };
 const opt = {
     size: 1,
-    autodelete: true,
-    more: 'I can add more'
+    autodelete: true
 };
 doSomething(opt);

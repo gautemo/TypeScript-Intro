@@ -10,7 +10,7 @@ const array2: Array<string> = [];
 
 const tuple: [number, string, boolean] = [12, 'yes', false];
 
-enum Color {Red, Blue};
+enum Color { Red, Blue };
 const color: Color = Color.Blue;
 
 const anything: any = 'whatever';
@@ -22,12 +22,12 @@ nothing = undefined;
 let nothing2: null = null;
 
 const neverMethod = (): never => {
-    while(true);
+    while (true);
     console.log('never reached');
 }
 
-const obj: object = {attr1: true, attr2: false};
+const obj: object = { attr1: true, attr2: false };
 
 //combining types
-let both: string|number = 5;
+let both: string | number = 5;
 both = 'changed';

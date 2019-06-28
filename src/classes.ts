@@ -4,15 +4,15 @@ class Animal {
     private name: string;
     age: number = 0;
 
-    constructor(name: string){
+    constructor(name: string) {
         this.name = name;
     }
 
-    get getName(): string{
+    get getName(): string {
         return this.name;
     }
 
-    set setName(newName: string){
+    set setName(newName: string) {
         this.name = 'Mr. ' + newName;
     }
 

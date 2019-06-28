@@ -8,10 +8,9 @@ const doSomething = (opt: Options) => {
     console.log(opt.autodelete);
 }
 
-const opt = {
+const opt: Options = {
     size: 1,
-    autodelete: true,
-    more: 'I can add more'
+    autodelete: true
 }
 
 doSomething(opt);
